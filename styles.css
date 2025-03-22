@@ -18,20 +18,26 @@
 .header{
     width: 100%;
     float: left;
-    height: 80px;
+    height: 90px;
     /* border: 5px solid black; */
     font-size: 45px;
     text-align: center;
+    
+    
     background-color: black;
     color: white;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     position: fixed;
+}
+.header img{
+    width: 100px;
+    height: 90px;
 }
 .bannar{
     width: 100%;
     height: 700px;
     float: left;
-    background-image: url('bannar.webp');
+    background-image: url('images/bannar.webp');
     background-repeat: no-repeat;
     background-size: cover;
     /* border: 5px solid red; */
@@ -49,13 +55,14 @@
     width: 80%;
     height: 60px;
     margin: 0 auto;
-
+    padding-left: 20px;
 }
 .h1{
     
     /* font-family: Inter; */
     font-size: 30px;
     font-weight: 700;
+    /* padding-left: 20px; */
     /* margin-top: 20px; */
 }
 .collection-row{
@@ -79,7 +86,7 @@
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    background-image: url('col1.webp');
+    background-image: url('images/col1.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -91,7 +98,7 @@
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    background-image: url('col2.webp');
+    background-image: url('images/col2.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -103,7 +110,7 @@
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    background-image: url('col3.webp');
+    background-image: url('images/col3.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -115,7 +122,7 @@
     margin-left: 20px;
     margin-top: 20px;
     border-radius: 15px;
-    background-image: url('col4.jfif');
+    background-image: url('images/col4.jfif');
     background-repeat: no-repeat;
     background-size: cover;
 }
